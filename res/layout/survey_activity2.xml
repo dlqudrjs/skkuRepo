@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:text=" 자가진단항목"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:textSize="10pt"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg2"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg3"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg4"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg5"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg6"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg7"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg8"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/q9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question1"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rg9"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/r91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. 전혀 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. 거의 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. 약간 그렇지 않다." />
+
+                    <RadioButton
+                        android:id="@+id/r94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4.보통이다." />
+
+                    <RadioButton
+                        android:id="@+id/r95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. 약간 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. 거의 그렇다." />
+
+                    <RadioButton
+                        android:id="@+id/r97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. 매우 그렇다." />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp" >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제출하기" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뒤로가기" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/stdid"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="8pt"
+                android:hint="학번" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:inputType="textPassword"
+                android:textSize="8pt"
+                android:hint="******" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Login" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:text="Login(최초 1회만 로그인)" />
+
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:text="※킹고 아이디로 로그인(최초 1회)."
+        android:textStyle="bold"
+        android:textSize="5pt" />
+
+</RelativeLayout>
